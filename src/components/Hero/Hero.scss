@@ -1,0 +1,15 @@
+.hero {
+    background-image: url(../../assets/desk.jpg);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.heroText {
+    & h1 {
+        margin: 24px 0;
+        color: white;
+    }
+}
