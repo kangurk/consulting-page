@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7E7D7D;
+    box-sizing: border-box;
+
+
+    width: 100%;
+
+    padding: 20px;
+
+    color: white;
+    opacity: 0.7;
+    
+    & h1 {
+        margin: 0;
+    }
+    & .languageContainer {
+        display: flex;
+        justify-content: space-around;
+        width: 100px;
+        & button {
+            all: unset;
+            font-weight: bold;
+            font-size: 30px;
+
+            color: #c9c9c9;
+
+            cursor: pointer;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
