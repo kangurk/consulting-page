@@ -1,5 +1,6 @@
 import Header from './components/Header/Header.tsx'
 import {Hero} from './components/Hero/Hero.tsx'
+import {LogoContainer} from './components/LogoContainer/LogoContainer.tsx'
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Header/>
       <Hero/>
+      <LogoContainer/>
     </div>
   );
 }
