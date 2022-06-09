@@ -10,9 +10,11 @@ function App() {
     <div className="App">
       <Header/>
       <Hero/>
-      <LogoContainer/>
+      <div className='mainContent'>
+        <LogoContainer/>
+        <Contact/>
+      </div>
       <Footer/>
-      <Contact/>
     </div>
   );
 }

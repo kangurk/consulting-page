@@ -1,14 +1,12 @@
+import { ContactDetails } from "./ContactDetails.tsx"
+import { ContactForm } from "./ContactForm.tsx"
 import "./Contact.scss"
 
 export const Contact = () => {
     return (
-        <div className="contactInfo">
-            <div className="information">
-                <h1>REKVISIIDID</h1>
-            </div>
-            <div className="contact">
-                <h1>VÕTKE MINUGA ÜHENDUST</h1>
-            </div>
+        <div className="contactContainer">
+            <ContactDetails/>
+            <ContactForm/>
         </div>
     )
 }
